@@ -1,0 +1,84 @@
+
+body {
+   background-color:blanchedalmond;
+}
+
+.horarios{
+    font-style:italic; 
+    padding-right: 10px;
+    margin-right:150px;
+}
+.dias{
+    font-weight: bold;
+}
+.flex-container {
+
+    display: flex;
+  
+    height: 200px;
+  
+    background-color: #00A4BD;
+  
+  }
+  
+  .variedades {
+
+    display: flex;
+  
+    height: 200px;
+  
+    background-color: #00A4BD;
+    
+  
+  }
+  
+  .variedades > div {
+  
+    background-color:white;
+  
+    width: 90px;
+  
+    margin: 10px;
+  
+    text-align: center;
+    text-size-adjust:initial;
+  
+    line-height: 50px;
+  
+    font-size: 35px;
+  
+    flex: 1 1 200px;
+    
+  
+  }
+  footer{
+    background-color:azure;
+  }
+  header{
+    background-color: azure;
+  }
+  main {
+  
+    background-color:white;
+  
+    width:50%;
+
+  
+    margin: 100px;
+  
+    text-align: left;
+    text: size adjust 20px;
+  
+    line-height: 50px;
+  
+    font-size: 15px;
+  
+    flex: 1 1 100px;
+    border:1px solid;
+    position:relative;
+    padding:60px;
+    margin-top:20px;
+    margin-left:150px;
+  }
+
+  
